@@ -21,12 +21,125 @@
 		{
 			text-decoration: underline;
 		}
+		* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 	</style>
 
 </head>
 <body>
 
-	<p style="background-color: darksalmon; padding: 50px; color: black; font-family: monospace;">&nbsp;&nbsp;FITRI'S PERSONAL WEBSITE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html" style="color: black;">HOME PAGE</a> | <a href="Biodata.html"style="color: black;">BIODATA</a> | <a href="Experience.html"style="color: black;">EXPERIENCE</a> | <a href="Education.html"style="color: black;">EDUCATION</a> | <a href="Family.html"style="color: black;">FAMILY</a> | <a href="Gallery.html"style="color: black;">GALLERY</a></p>
+	<p style="background-color: darksalmon; padding: 50px; color: black; font-family: monospace;">&nbsp;&nbsp;FITRI'S PERSONAL WEBSITE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html" style="color: black;">HOME PAGE</a> | <a href="Biodata.html"style="color: black;">BIODATA</a> | <a href="Experience.html"style="color: black;">EXPERIENCE</a> | <a href="Education.html"style="color: black;">EDUCATION</a> | <a href="Family.html"style="color: black;">FAMILY</a> | <a href="Gallery.html"style="color: black;">GALLERY</a></p>
+	<p></p>
+	<div class="main">
+
+<h1 style="text-align: center;">HELLO PEEPS. COME CHECK OUT</h1>
+<h1 style="text-align: center;">MY PERSONAL GALLERY!!!</h1>
+<hr>
+
+<h2>MY GALLERY</h2>
+<p>Just a simple picture of my life.</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="images/photo1.jpg" alt="MaPrend" style="width:100%">
+      <h3>Once with ma classmate</h3>
+      <p>We just had some talk..</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="images/photo2.jpg" alt="bigbrother" style="width:100%">
+      <h3>Ma big brothaa</h3>
+      <p>Both of us tried to figure out what to do next... </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="images/photo4.jpg" alt="Me" style="width:100%">
+      <h3>Seeing myself</h3>
+      <p>Me watching busking musician performance.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="images/photo5.jpg" alt="Maboys" style="width:100%">
+      <h3>With ma boyss</h3>
+      <p>We had a lunch at Mcd's Tanah Merah.</p>
+    </div>
+  </div>
+</div>
+
+<div class="content">
+  <img src="images/photo6.jpg" alt="MyNephew" style="width:100%">
+  <h3>My oldest nephew</h3>
+  <p>What a cute face...</p>
+</div>
+
+<!-- END MAIN -->
+</div>
 
 </body>
 </html>
