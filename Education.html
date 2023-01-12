@@ -11,6 +11,7 @@
 		body
 		{
 			background-color: oldlace;
+			margin: 0%;
 		}
 		a:link, a:visited
 		{
@@ -21,12 +22,119 @@
 		{
 			text-decoration: underline;
 		}
+		* {
+  box-sizing: border-box;
+}
+
+header h2 {
+  background-color: none;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  font-family: fantasy;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: oldlace;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: oldlace;
+  height: 300px; 
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+img
+{
+	border: 2px black solid;
+}
+
 	</style>
 
 </head>
 <body>
 
-	<p style="background-color: darksalmon; padding: 50px; color: black; font-family: monospace;">&nbsp;&nbsp;FITRI'S PERSONAL WEBSITE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html" style="color: black;">HOME PAGE</a> | <a href="Biodata.html"style="color: black;">BIODATA</a> | <a href="Experience.html"style="color: black;">EXPERIENCE</a> | <a href="Education.html"style="color: black;">EDUCATION</a> | <a href="Family.html"style="color: black;">FAMILY</a> | <a href="Gallery.html"style="color: black;">GALLERY</a></p>
+	<p style="background-color: darksalmon; padding: 50px; color: black; font-family: monospace;">&nbsp;&nbsp;FITRI'S PERSONAL WEBSITE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html" style="color: black;">HOME PAGE</a> | <a href="Biodata.html"style="color: black;">BIODATA</a> | <a href="Experience.html"style="color: black;">EXPERIENCE</a> | <a href="Education.html"style="color: black;">EDUCATION</a> | <a href="Family.html"style="color: black;">FAMILY</a> | <a href="Gallery.html"style="color: black;">GALLERY</a></p>
+	
+	<header>
+  <h2>MY EDUCATIONS BACKGROUND</h2>
+</header>
+
+<section>
+  <nav><img src="images/edu1.jfif" width="300px" height="250px"></nav>
+  
+  <article>
+    <h1>Primary school</h1>
+    <p>Sekolah Rendah Kebangsaan Desa Baiduri</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+</section>
+<section>
+  <article>
+    <h1>My first secondary school</h1>
+    <p>Sekolah Menengah Kebangsaan Bandar Damai Perdana</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+  <nav><img src="images/edu2.jpg" width="300px" height="250px"></nav>
+</section>
+<section>
+  <nav><img src="images/edu3.jfif" width="300px" height="250px"></nav>
+  <article>
+    <h1>My second secondary school</h1>
+    <p>Sekolah Menengah Kebangsaan Methodist ACS Melaka</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article> 
+</section>
+<section>
+  <article>
+    <h1>My third secondary school</h1>
+    <p>Sekolah Menengah Kebangsaan Cheras Perdana</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+  <nav><img src="images/edu4.jfif" width="300px" height="250px"></nav> 
+</section>
+<section>
+  <nav><img src="images/edu5.webp" width="300px" height="250px"></nav>
+  <article>
+    <h1>University</h1>
+    <p>Universiti Teknologi MARA (UiTM)</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article> 
+</section>
+<hr style="margin: 10%">
+<footer>
+  <p>Fitri's Personal Website</p>
+</footer>
 
 </body>
 </html>
